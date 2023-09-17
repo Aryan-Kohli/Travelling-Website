@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+    @apply w-full mt-4 px-2 py-2 rounded-2xl;
+}
+*{
+    @apply px-0.5;
+}
+#longinbtn {
+    background-color: #ff3b5c;
+    @apply bg-primary p-2 mt-2 w-full rounded-2xl;
+}
